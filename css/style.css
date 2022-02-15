@@ -120,10 +120,15 @@ body {
 }
 
 .auto-hide {
+  content: '';
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
   padding: 50px;
   width: 100%;
   display: flex;
   flex-direction: column;
+  z-index: 100;
 }
 
 .auto-hide section {
